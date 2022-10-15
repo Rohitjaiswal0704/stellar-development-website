@@ -1,0 +1,318 @@
+@media(max-width:600px){
+
+    .maincontainer{
+        width: 220%;
+        height: 200%; 
+    }
+    .maincontainer>.container{
+        width: 100%;
+        height: 112%;
+        flex-direction: column;
+    }
+    .container>nav>h1{
+        Font-size: 30px;
+        Font-weight: 400;
+        Line-height: 27px; 
+        top: 0%;
+        left: 4%;
+        color: white;
+        transition: all 0.3s ease;
+    }
+    @keyframes move {
+        from{
+            opacity: 0;
+            top: 0%;
+            left: 4%;
+        }to{
+            opacity: 1;
+            top: 130%;
+            left: 4%;
+        }
+    }
+    .container>nav>i{
+        font-size: 4vmax;
+        width: 55px;
+        height: 55px;
+        top: 0%;
+        left: 86%;
+        transition: all 0.3s ease;
+    }  
+    @keyframes text {
+        from{
+            opacity: 0;
+            top: 0%;
+            left: 86%;
+        }to{
+            opacity: 1;
+            top: 130%;
+            left: 86%;
+        }
+    }  
+    .container>.left{
+        width: 100%;
+    }
+    .container>.left>h1{
+        top: 65%;
+        left: 5%;
+        transition: all 0.3s ease;
+    }
+    @keyframes none1 {
+        from{
+            opacity: 0;
+            top: 65%;
+            left: 5%;
+        }to{
+            opacity: 1;
+            top: 60%;
+            left: 5%;
+        }
+    } 
+    .container>.left>p{
+        margin: 180vmax 0 0 13vmax;
+        Font-size:40.8695px;
+        Font-weight: 500;
+        Line-height:  38.1303px;
+    }
+    .container>.left>button{
+        Font-size: 30.1778px;
+        margin: 4vmax 0 4vmax 20vmax;
+    }
+
+/*  */
+    .container>.right{
+        width: 100%;
+    }
+    .container>.right{
+        width: 100%;
+        height: 100%;
+    }
+    @keyframes Text5 {
+        from{
+            transition: all 0.3s ease;
+            top: 0%;
+            left: 0%;
+        }
+        to{
+            transform: translateX(50);
+            top: 0%;
+            left: 0%;
+        
+        }
+    }
+    .button1{
+        font-size: 10vmax;
+        top: 90%;
+        left: 83%; 
+        animation: none2 0.3s linear 6s both;
+    }
+    @keyframes none2 {
+        from{
+            opacity: 0;
+            top: 100%;
+            left: 83%;
+        }to{
+            opacity: 1;
+            top: 91%;
+            left: 83%;
+        }
+    }
+
+    .menupop{
+        width: 35%;
+        height: 24%;
+        top: 65%;
+        left: 60%;
+        position: fixed;
+        outline: 0.1vmax solid black;
+        /* background-color: aqua; */
+    }
+    .menupop>.one{
+        Font-size: 24px;
+    }
+    .menupop>.home1{
+        Font-size: 38px;
+    }
+/*-container2-  */
+.container2{
+    width: 100%;
+    height: 113%;
+    flex-direction: column;
+    position: sticky;
+    z-index: 98;
+}
+.container2>.left{
+    width: 100%;
+    height: 110%;
+    position: sticky;
+    z-index: 98;
+}
+
+.container2>.right{
+    width: 100%;
+    height: 110%;
+    z-index: 98;
+}
+.container2>.right>h1{
+    margin: 13vmax 0 0 8vmax;
+}
+.container2>.right>h2{
+    margin: 15vmax 0 6.3vmax 30vmax;
+    Font-size: 28.8695px;
+}
+.container2>.right>h2>span{
+    font-size: 11vmax;
+    margin: 1.8vmax 1vmax 0 0.5vmax;
+}
+/* --container3-- */
+.container3{
+    width: 100%;
+    height: 112%;
+    position: sticky;
+    z-index: 97;
+}
+.container3>h1{
+    padding: 50vmax 0 0 4vmax;
+    Font-size: 40.3555px;
+}
+.container3>h2{
+    padding: 10vmax 0 9vmax 4vmax;
+    Font-size: 80.6042px;
+}
+/*--------container4---- */
+.container4{
+    width: 100%;
+    height: 112%;
+    flex-direction: column;
+    position: relative;
+    position: sticky;
+    z-index: 95;
+
+
+}
+.container4>.left{
+    width: 100%;
+    height: 100%;
+}
+.container4>.right{
+    width: 100%; 
+    height: 100%;
+}
+.container4>.right>h1{
+    margin: 9vmax 0 0 5vmax;
+    Font-size: 50.0472px;
+    Line-height: 50.1303px;
+}
+.container4>.right>button{
+    margin: 4vmax 0 0 5vmax;
+    Font-size: 30.8695px;
+}
+.container4>.right>button>i{
+    margin:  0 0 0 2vmax;
+    
+}
+/*---container5-----*/
+.container5{
+   flex-direction: column;
+    width: 100%;
+    height: 110%;
+    z-index: 94;
+}
+.container5>.left{
+    width: 100%;
+    height: 100%;
+}
+.container5>.left>.left2{
+    padding: 27vmax 0 0 10vmax;
+    flex-direction: column;
+    gap: 4vmax;
+}
+.container5>.left>.left2>h1>i{
+    font-size: 4vmax;
+    margin: 0 3vmax 0vmax 0vmax;
+}
+.container5>.left>.left3{
+    margin: 0 0vmax 0 10vmax;
+    padding: 19.3vmax 0 0 5vmax;
+}
+.container5>.left>.left3>h1{
+    Font-size: 30.8695px;
+}
+.container5>.left>.left3>img{
+    width: 30%;
+    margin:  0 0 0 1vmax;
+}
+.container5>.left>.left3>.img2{
+    width: 22%;
+    margin:  0 0 0 1vmax;
+}
+.container5>.left>h1{
+    margin:  0.5vmax 0 0vmax 15vmax;
+    padding: 0 0 4vmax 0;
+    Font-size: 25px;
+}
+.container5>.right{
+    width: 100%;
+    height: 100%;
+}
+.container5.right>img{
+    width: 100%;
+    background-position: center;
+  }
+
+/* .menubar */
+.menubar{
+    flex-direction: column;
+    padding: 5vmax 0vmax 0 2vmax;
+} 
+.menubar>.one100{
+    /* background-color: blueviolet; */
+    width: 10%;
+    height: 20%;
+}
+.menubar>.two2{
+    /* background-color: aqua; */
+    width: 90%;
+    height: 70%;
+}
+.menubar>.two2>.two100>img{
+    width: 70%;
+    margin: 0vmax 0vmax 0 12vmax;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.menubar>.two2>.two101>img{
+    width: 70%;
+    margin: 4vmax 0vmax 0 12vmax;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.menubar>.two2>h1{
+    margin: 1vmax 0 0vmax 12vmax;
+    Font-size: 25.075px;
+}
+.menubar>.there3{
+    width: 90%;
+    height: 70%;
+    margin: 0 0 0 8vmax;
+}
+.menubar>.there3>h1{
+    margin:  1vmax 0 0vmax 12vmax;
+    Font-size: 25.075px;
+}
+.menubar>.there3>.there300>img{
+    width: 70%;
+    margin: 0vmax 0 0 12vmax;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.menubar>.there3>.there301>img{
+    width: 70%;
+    margin: 4vmax 0 0 12vmax;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+
+
+
+}
